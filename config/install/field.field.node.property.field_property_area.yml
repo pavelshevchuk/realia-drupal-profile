@@ -1,0 +1,23 @@
+uuid: 5816d52a-28b5-4c0f-875a-9018ed883c5f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_property_area
+    - node.type.property
+id: node.property.field_property_area
+field_name: field_property_area
+entity_type: node
+bundle: property
+label: Area
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

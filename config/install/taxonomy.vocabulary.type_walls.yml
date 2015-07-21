@@ -1,0 +1,9 @@
+uuid: c4752333-6cca-43e8-bf5f-9515fd7b56f4
+langcode: en
+status: true
+dependencies: {  }
+name: 'Type of Walls'
+vid: type_walls
+description: ''
+hierarchy: 0
+weight: 0

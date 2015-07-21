@@ -1,0 +1,20 @@
+uuid: e13b2099-b672-49ad-a100-e5c573586eb4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_property_location
+field_name: field_property_location
+entity_type: node
+type: string
+settings:
+  max_length: 256
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false

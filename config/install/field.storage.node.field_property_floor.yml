@@ -1,0 +1,19 @@
+uuid: afd47c07-d979-4d90-b500-f5bce415b409
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_property_floor
+field_name: field_property_floor
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false

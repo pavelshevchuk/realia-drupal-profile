@@ -1,0 +1,21 @@
+uuid: f5ab1004-d173-4156-9900-0db3c0fce9d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_property_notes
+    - node.type.property
+  module:
+    - text
+id: node.property.field_property_notes
+field_name: field_property_notes
+entity_type: node
+bundle: property
+label: Notes
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

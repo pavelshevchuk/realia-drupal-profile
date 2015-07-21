@@ -1,0 +1,23 @@
+uuid: dc463cf8-84e7-4c36-9800-d51047c81f5b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_property_floors
+    - node.type.property
+id: node.property.field_property_floors
+field_name: field_property_floors
+entity_type: node
+bundle: property
+label: Floors
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

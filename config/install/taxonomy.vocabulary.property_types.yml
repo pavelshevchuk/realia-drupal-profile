@@ -1,0 +1,9 @@
+uuid: fa2873b4-6caf-4bc2-8d5d-939274b49072
+langcode: en
+status: true
+dependencies: {  }
+name: 'Property Types'
+vid: property_types
+description: ''
+hierarchy: 0
+weight: 0

@@ -1,0 +1,19 @@
+uuid: b21255a6-adef-4e1a-9f13-19c21dd239ef
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_property_price
+field_name: field_property_price
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false

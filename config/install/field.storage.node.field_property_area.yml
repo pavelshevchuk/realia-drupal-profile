@@ -1,0 +1,19 @@
+uuid: dd2ad7e5-b381-4cb5-8f36-540125d5c245
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_property_area
+field_name: field_property_area
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false

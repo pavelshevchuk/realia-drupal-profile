@@ -1,0 +1,28 @@
+uuid: dd70b2e8-e41d-4b92-ab15-2128b9888611
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_property_property_type
+    - node.type.property
+  module:
+    - entity_reference
+id: node.property.field_property_property_type
+field_name: field_property_property_type
+entity_type: node
+bundle: property
+label: 'Property Type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      property_types: property_types
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

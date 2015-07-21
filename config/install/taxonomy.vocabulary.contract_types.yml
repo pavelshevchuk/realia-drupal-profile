@@ -1,0 +1,9 @@
+uuid: cd42aa9e-2c70-48cc-9d00-ccd24acf7187
+langcode: en
+status: true
+dependencies: {  }
+name: 'Contract Types'
+vid: contract_types
+description: ''
+hierarchy: 0
+weight: 0
