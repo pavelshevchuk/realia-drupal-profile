@@ -14,4 +14,18 @@ mode: teaser
 content:
   links:
     weight: 100
-hidden: {  }
+hidden:
+  field_property_amenities: true
+  field_property_area: true
+  field_property_bathrooms: true
+  field_property_bedrooms: true
+  field_property_contract_type: true
+  field_property_district: true
+  field_property_floor: true
+  field_property_floors: true
+  field_property_images: true
+  field_property_location: true
+  field_property_notes: true
+  field_property_price: true
+  field_property_property_type: true
+  field_property_type_walls: true

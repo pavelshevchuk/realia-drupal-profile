@@ -38,6 +38,9 @@ dependencies:
   - tour
   - serialization
   - rest
+  - admin_toolbar
+  - devel
+  - image_raw_formatter
 themes:
   - bartik
   - seven
