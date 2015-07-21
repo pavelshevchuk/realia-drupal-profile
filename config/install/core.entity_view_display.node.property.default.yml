@@ -1,0 +1,24 @@
+uuid: 88e4029e-0207-48ea-8f00-ef8b06cfc3b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.property.body
+    - node.type.property
+  module:
+    - text
+    - user
+id: node.property.default
+targetEntityType: node
+bundle: property
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }
